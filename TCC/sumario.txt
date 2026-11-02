@@ -1,0 +1,59 @@
+1. Base de dados e características das séries
+Esses arquivos documentam os dados utilizados e as características calculadas para cada série.
+Arquivo	Finalidade e conteúdo
+amostra_tcc.csv	Base principal do experimento. Contém as 16 séries temporais selecionadas do TSDL, em formato longo, com 2.670 observações. Possui as colunas id_tsdl, subject, frequency, indice, tempo e valor.
+caracteristicas_series.csv	Características estruturais calculadas sobre as séries completas: tendência (trend), sazonalidade (seasonal_strength), autocorrelação de primeira ordem (x_acf1) e entropia (entropy).
+caracteristicas_treino.csv	Mesmas características anteriores, mas recalculadas exclusivamente sobre a primeira janela de treinamento de cada série. Utilizado para verificar a robustez temporal das análises.
+analise_estrutural.csv	Base que reúne as características estruturais das séries e os resultados de desempenho dos seis modelos, permitindo relacionar propriedades das séries aos erros obtidos.
+analise_relativa_naive.csv	Reúne características estruturais e razões de desempenho dos modelos em relação ao Naive, utilizando a razão entre o MAE de cada modelo e o MAE do Naive.
+
+2. Resultados individuais das previsões
+Esses arquivos armazenam as previsões produzidas pelos algoritmos durante o experimento.
+Arquivo	Finalidade e conteúdo
+resultados_arima_parcial.csv	Resultados das previsões ARIMA/SARIMA. Funcionou como arquivo de checkpoint/cache durante a execução. Foi validado com 160 previsões, correspondentes às 16 séries e dez origens de previsão.
+resultados_random_forest_parcial.csv	Arquivo intermediário de acompanhamento da execução do Random Forest.
+resultados_random_forest.csv	Resultados consolidados das previsões do Random Forest, incluindo valores reais, previstos e erros.
+resultados_svr_parcial.csv	Arquivo intermediário de acompanhamento da execução do SVR.
+resultados_svr.csv	Resultados consolidados das previsões do SVR.
+resultados_xgboost_parcial.csv	Arquivo intermediário de acompanhamento da execução do XGBoost.
+resultados_xgboost.csv	Resultados consolidados das previsões do XGBoost.
+
+Observação: os arquivos com sufixo _parcial foram utilizados como checkpoints. Não devem ser confundidos com tabelas finais de métricas. No caso do ARIMA/SARIMA, o arquivo parcial foi posteriormente validado como completo.
+
+Os arquivos de resultados guardam informações por origem de previsão, permitindo reconstruir os erros e verificar como os modelos se comportaram ao longo das dez avaliações.
+3. Métricas de desempenho
+Esses arquivos transformam as previsões individuais em indicadores quantitativos de desempenho.
+Arquivo	Finalidade e conteúdo
+metricas_estatisticos.csv	Métricas dos três métodos estatísticos: Naive, ETS e ARIMA/SARIMA. Contém 48 combinações série-modelo, com MAE, RMSE e MASE.
+metricas_random_forest.csv	Métricas de desempenho do Random Forest nas 16 séries.
+metricas_xgboost.csv	Métricas de desempenho do XGBoost nas 16 séries.
+metricas_svr.csv	Métricas de desempenho do SVR nas 16 séries.
+metricas_consolidadas.csv	Consolidação das métricas dos seis métodos nas 16 séries, totalizando 96 combinações série-modelo. É a principal base para as comparações gerais.
+metricas_com_mase_sazonal.csv	Métricas dos modelos incluindo também o MASE calculado com uma referência sazonal, permitindo comparar as duas formas de normalização.
+comparacao_mase_por_serie.csv	Organização dos resultados de MASE por série e por modelo, facilitando a comparação individual entre os métodos.
+
+4. Comparações e análises estatísticas
+Aqui estão os arquivos utilizados para investigar as diferenças entre os métodos e as relações entre características estruturais e desempenho.
+Arquivo	Finalidade e conteúdo
+comparacao_familias.csv	Compara o melhor método estatístico com o melhor método de aprendizado de máquina em cada série. Inclui a razão entre os respectivos MAEs.
+ranking_modelos.csv	Organiza o posicionamento dos seis modelos de acordo com seus resultados nas séries, permitindo calcular e consultar o ranking médio.
+desempenho_por_frequencia.csv	Resume o desempenho relativo dos modelos conforme a frequência das séries: anual, trimestral, mensal e semanal.
+correlacoes_estruturais.csv	Correlações de Spearman entre as características estruturais e a vantagem relativa da família de aprendizado de máquina em relação à estatística.
+correlacoes_por_modelo.csv	Correlações entre as características estruturais e o desempenho individual dos modelos, utilizando suas métricas de erro.
+correlacoes_relativas_naive.csv	Correlações entre as características estruturais e as razões de desempenho dos modelos em relação ao Naive.
+correlacoes_mase_sazonal.csv	Investiga a relação entre intensidade sazonal e MASE, considerando tanto a normalização original quanto a sazonal, por modelo.
+
+5. Análises de robustez e sensibilidade
+Esses arquivos foram produzidos para verificar se os principais resultados dependiam excessivamente de determinadas escolhas ou observações.
+Arquivo	Finalidade e conteúdo
+sensibilidade_leave_one_out.csv	Resultados detalhados da análise leave-one-out, recalculando as correlações após retirar uma série por vez.
+resumo_leave_one_out.csv	Resumo dos resultados do leave-one-out, incluindo a estabilidade e os intervalos dos coeficientes obtidos.
+robustez_caracteristicas_treino.csv	Resultados das correlações utilizando características calculadas exclusivamente na primeira janela de treinamento. Permite comparar com as análises feitas usando as séries completas.
+resumo_robustez_mase.csv	Resumo da comparação entre os resultados obtidos com MASE não sazonal e MASE sazonal.
+sensibilidade_modelos.csv	Contém uma análise de sensibilidade das correlações de Spearman entre a intensidade sazonal das séries temporais e o MASE dos seis modelos de previsão. Apresenta os coeficientes calculados considerando todas as dez séries com sazonalidade disponível e após a exclusão das três séries de maior intensidade sazonal. A coluna diferenca registra a variação entre os coeficientes das duas análises. Foi utilizado para investigar a influência das séries mais sazonais nas associações observadas.
+
+6. Tabelas-síntese
+São arquivos derivados que condensam resultados importantes para consulta e apresentação no TCC.
+Arquivo	Finalidade e conteúdo
+tabela_sintese_tcc.csv	Versão inicial da tabela que reúne os principais resultados e indicadores do experimento.
+tabela_sintese_tcc_atualizada.csv	Versão atualizada da tabela-síntese, com 12 registros e quatro colunas, incorporando os resultados das verificações de robustez temporal.

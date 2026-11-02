@@ -1,0 +1,17 @@
+"id_tsdl","descricao","fonte","categoria_tcc","categoria_tsdl","frequencia","periodicidade","inicio","fim","n_observacoes"
+12,"Quarterly U.S. new plant/equip. expenditures –64 – –76 billions","Abraham & Ledolter (1983)","Microeconomic","Microeconomic",4,"Trimestral","1964-1","1976-4",52
+97,"Basic quarterly iron production in Australia: thousand tonnes. Mar 1956 – Sep 1994","Australian Bureau of Statistics","Production","Production",4,"Trimestral","1956-1","1994-3",155
+122,"Monthly electricity production in Australia: million kilowatt hours. Jan 1956 – Aug 1995","Australian Bureau of Statistics","Production","Production",12,"Mensal","1956-1","1995-8",476
+198,"Portland, Oregon monthly average gasoline price (cents/gal), January 1973 through June 1982, n=114","Cryer (1986)","Microeconomic","Microeconomic",12,"Mensal","1973-1","1982-6",114
+392,"M3, U.S. 1959.1-1992.2","Hipel and McLeod (1994)","Finance","Finance",12,"Mensal","1959-1","1992-2",398
+423,"Der Stern: Weekly delivery to wholesalers –71-–72","Makridakis & Wheelwright (1989)","Production","Production",52,"Semanal","1971-1","1972-52",104
+427,"Der Stern: Weekly sales of wholesalers B, –71-–72","Makridakis & Wheelwright (1989)","Sales","Sales",52,"Semanal","1971-1","1972-52",104
+443,"Quarterly S&P 500 index, 1900-1996","Makridakis, Wheelwright and Hyndman (1998)","Finance","Finance",4,"Trimestral","1900-1","1996-4",388
+470,"Monthly sales of product A for a plastics manufacturer","Makridakis, Wheelwright and Hyndman (1998)","Sales","Sales",12,"Mensal","1-1","5-12",60
+485,"Annual Swedish harvest index, 1749 – 1850. Thomas (1940)","McCleary & Hay (1980)","Microeconomic","Microeconomic",1,"Anual","1749-1","1850-1",102
+516,"Annual bond yield, U.S., 1900 to 1970","Nelson and Plosser (1982)","Finance","Finance",1,"Anual","1900-1","1970-1",71
+563,"Weekly market share data of Crest toothpaste from Junuary 1958 to April 1963","Pena, Tiao and Tsay (2001)","Microeconomic","Microeconomic",52,"Semanal","1-1","6-16",276
+585,"Weekly closings of the Dow-Jones industrial average, July 1971 – August 1974","Roberts (1992)","Finance","Finance",52,"Semanal","1971-27","1974-32",162
+594,"Annual domestic sales and advertising of Lydia E, Pinkham Medicine, 1907 to 1960","Roberts (1992)","Sales","Sales",1,"Anual","1907-1","2014-1",108
+632,"U.S. annual coffee consumption. 1910 – 1970.","NA","Production","Production",1,"Anual","1910-1","1970-1",61
+639,"Quarterly retail turnover: $m current. Jun 1982 – Dec 1991.","NA","Sales","Sales",4,"Trimestral","1982-3","1992-1",39

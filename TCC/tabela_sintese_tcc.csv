@@ -1,0 +1,10 @@
+﻿aspecto,resultado,interpretacao,limitacao
+Desempenho geral,"ARIMA 1,017; ETS 1,026 (MASE médio)",Melhores médias dos métodos estatísticos,Resultados condicionados ao protocolo experimental
+Ranking médio,"ARIMA 2,563; ETS 2,813",Liderança também nas posições médias,Diferenças não implicam significância estatística
+Comparação entre famílias,Estatísticos 10 vitórias; ML 6,Predominância descritiva dos estatísticos,Melhores modelos escolhidos retrospectivamente
+Sazonalidade e famílias,"rho=0,612; p=0,060; n=10",Associação positiva sugestiva,Sensível às três séries mais sazonais
+Sazonalidade versus Naive,"ARIMA rho=-0,903; ETS rho=-0,867",Maior vantagem relativa em séries sazonais,Associação exploratória; não causal
+Entropia e XGBoost,"rho=0,703; p=0,0024",Menor vantagem relativa com maior entropia,Dependência da referência Naive e da amostra
+Leave-one-out,Três associações conservaram o sinal,Estabilidade à exclusão individual,Não comprova generalização
+MASE sazonal,"ETS 0,544; ARIMA 0,577",Mudança na classificação agregada,"Normalização altera médias, não previsões"
+Frequência temporal,Vantagens medianas trimestrais; dificuldades semanais,Possível heterogeneidade por frequência,Apenas quatro séries por frequência

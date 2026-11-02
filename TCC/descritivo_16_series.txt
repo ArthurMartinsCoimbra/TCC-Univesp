@@ -1,0 +1,179 @@
+DESCRITIVO DAS 16 SÉRIES TEMPORAIS
+Fonte: Time Series Data Library (TSDL)
+
+SÉRIE 12
+Descrição: Quarterly U.S. new plant/equip. expenditures –64 – –76 billions
+Fonte: Abraham & Ledolter (1983)
+Categoria no TCC: Microeconomic
+Categoria original TSDL: Microeconomic
+Periodicidade: Trimestral
+Frequência: 4
+Início: 1964-1
+Fim: 1976-4
+Observações: 52
+
+SÉRIE 97
+Descrição: Basic quarterly iron production in Australia: thousand tonnes. Mar 1956 – Sep 1994
+Fonte: Australian Bureau of Statistics
+Categoria no TCC: Production
+Categoria original TSDL: Production
+Periodicidade: Trimestral
+Frequência: 4
+Início: 1956-1
+Fim: 1994-3
+Observações: 155
+
+SÉRIE 122
+Descrição: Monthly electricity production in Australia: million kilowatt hours. Jan 1956 – Aug 1995
+Fonte: Australian Bureau of Statistics
+Categoria no TCC: Production
+Categoria original TSDL: Production
+Periodicidade: Mensal
+Frequência: 12
+Início: 1956-1
+Fim: 1995-8
+Observações: 476
+
+SÉRIE 198
+Descrição: Portland, Oregon monthly average gasoline price (cents/gal), January 1973 through June 1982, n=114
+Fonte: Cryer (1986)
+Categoria no TCC: Microeconomic
+Categoria original TSDL: Microeconomic
+Periodicidade: Mensal
+Frequência: 12
+Início: 1973-1
+Fim: 1982-6
+Observações: 114
+
+SÉRIE 392
+Descrição: M3, U.S. 1959.1-1992.2
+Fonte: Hipel and McLeod (1994)
+Categoria no TCC: Finance
+Categoria original TSDL: Finance
+Periodicidade: Mensal
+Frequência: 12
+Início: 1959-1
+Fim: 1992-2
+Observações: 398
+
+SÉRIE 423
+Descrição: Der Stern: Weekly delivery to wholesalers –71-–72
+Fonte: Makridakis & Wheelwright (1989)
+Categoria no TCC: Production
+Categoria original TSDL: Production
+Periodicidade: Semanal
+Frequência: 52
+Início: 1971-1
+Fim: 1972-52
+Observações: 104
+
+SÉRIE 427
+Descrição: Der Stern: Weekly sales of wholesalers B, –71-–72
+Fonte: Makridakis & Wheelwright (1989)
+Categoria no TCC: Sales
+Categoria original TSDL: Sales
+Periodicidade: Semanal
+Frequência: 52
+Início: 1971-1
+Fim: 1972-52
+Observações: 104
+
+SÉRIE 443
+Descrição: Quarterly S&P 500 index, 1900-1996
+Fonte: Makridakis, Wheelwright and Hyndman (1998)
+Categoria no TCC: Finance
+Categoria original TSDL: Finance
+Periodicidade: Trimestral
+Frequência: 4
+Início: 1900-1
+Fim: 1996-4
+Observações: 388
+
+SÉRIE 470
+Descrição: Monthly sales of product A for a plastics manufacturer
+Fonte: Makridakis, Wheelwright and Hyndman (1998)
+Categoria no TCC: Sales
+Categoria original TSDL: Sales
+Periodicidade: Mensal
+Frequência: 12
+Início: 1-1
+Fim: 5-12
+Observações: 60
+
+SÉRIE 485
+Descrição: Annual Swedish harvest index, 1749 – 1850. Thomas (1940)
+Fonte: McCleary & Hay (1980)
+Categoria no TCC: Microeconomic
+Categoria original TSDL: Microeconomic
+Periodicidade: Anual
+Frequência: 1
+Início: 1749-1
+Fim: 1850-1
+Observações: 102
+
+SÉRIE 516
+Descrição: Annual bond yield, U.S., 1900 to 1970
+Fonte: Nelson and Plosser (1982)
+Categoria no TCC: Finance
+Categoria original TSDL: Finance
+Periodicidade: Anual
+Frequência: 1
+Início: 1900-1
+Fim: 1970-1
+Observações: 71
+
+SÉRIE 563
+Descrição: Weekly market share data of Crest toothpaste from Junuary 1958 to April 1963
+Fonte: Pena, Tiao and Tsay (2001)
+Categoria no TCC: Microeconomic
+Categoria original TSDL: Microeconomic
+Periodicidade: Semanal
+Frequência: 52
+Início: 1-1
+Fim: 6-16
+Observações: 276
+
+SÉRIE 585
+Descrição: Weekly closings of the Dow-Jones industrial average, July 1971 – August 1974
+Fonte: Roberts (1992)
+Categoria no TCC: Finance
+Categoria original TSDL: Finance
+Periodicidade: Semanal
+Frequência: 52
+Início: 1971-27
+Fim: 1974-32
+Observações: 162
+
+SÉRIE 594
+Descrição: Annual domestic sales and advertising of Lydia E, Pinkham Medicine, 1907 to 1960
+Fonte: Roberts (1992)
+Categoria no TCC: Sales
+Categoria original TSDL: Sales
+Periodicidade: Anual
+Frequência: 1
+Início: 1907-1
+Fim: 2014-1
+Observações: 108
+
+SÉRIE 632
+Descrição: U.S. annual coffee consumption. 1910 – 1970.
+Fonte: NA
+Categoria no TCC: Production
+Categoria original TSDL: Production
+Periodicidade: Anual
+Frequência: 1
+Início: 1910-1
+Fim: 1970-1
+Observações: 61
+
+SÉRIE 639
+Descrição: Quarterly retail turnover: $m current. Jun 1982 – Dec 1991.
+Fonte: NA
+Categoria no TCC: Sales
+Categoria original TSDL: Sales
+Periodicidade: Trimestral
+Frequência: 4
+Início: 1982-3
+Fim: 1992-1
+Observações: 39
+

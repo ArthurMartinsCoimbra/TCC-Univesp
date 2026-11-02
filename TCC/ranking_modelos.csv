@@ -1,0 +1,7 @@
+modelo,ranking
+ARIMA_AUTO,2.5625
+ETS_AUTO,2.8125
+Naive,3.4375
+XGBoost,4.0
+RandomForest,4.0625
+SVR,4.125
